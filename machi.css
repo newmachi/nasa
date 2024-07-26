@@ -65,32 +65,32 @@ textarea{
     text-transform: uppercase;
 }
 
-.bi-twitter-x{
+.fa-x-twitter{
     margin-right: 12px;
     font-size: 2.2rem;
     color: white;
 }
 
-.bi-linkedin{
+.fa-linkedin{
     margin-right: 12px;
     font-size: 2.2rem;
 }
 
-.bi-github{
+.fa-github{
     font-size: 2.2rem;
     color: rgb(20, 81, 238);
 }
 
-.bi-whatsapp{
+.fa-square-whatsapp{
     font-size: 2.2rem;
     margin-right: 12px;
     color: green;
 }
 
-.bi-dash-lg{
+.fa-minus{
     font-size: 60px;
 }
-.bi-star-fill{
+.fa-star{
     font-size: 40px;
 }
 
