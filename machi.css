@@ -1,0 +1,109 @@
+section{
+    padding: 60px 0;
+}
+
+#intro img{
+   border: 1px solid;
+   border-radius: 50%;
+}
+
+#about{
+    word-spacing: 3;
+    line-height: 2;
+   justify-content: center;
+   font-size: 17px;
+   font-weight: bolder;
+   /* font-family: 'Times New Roman', Times, serif; */
+   font-style: oblique;
+}
+
+.image-container:hover img{
+    transform: scale(1.1);
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img{
+    opacity: 0.9;
+}
+
+.image-container :hover .text-overlay{
+    opacity: 1;
+}
+
+
+.text-overlay{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50% -50%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.text-overlay:hover{
+    color: rgb(3, 56, 134);
+}
+
+
+textarea{
+    height: 200px;
+}
+
+#main-nav a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn{
+    text-transform: uppercase;
+}
+
+.bi-twitter-x{
+    margin-right: 12px;
+    font-size: 2.2rem;
+    color: white;
+}
+
+.bi-linkedin{
+    margin-right: 12px;
+    font-size: 2.2rem;
+}
+
+.bi-github{
+    font-size: 2.2rem;
+    color: rgb(20, 81, 238);
+}
+
+.bi-whatsapp{
+    font-size: 2.2rem;
+    margin-right: 12px;
+    color: green;
+}
+
+.bi-dash-lg{
+    font-size: 60px;
+}
+.bi-star-fill{
+    font-size: 40px;
+}
+
+.below{
+    border-bottom: 1px solid white;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
